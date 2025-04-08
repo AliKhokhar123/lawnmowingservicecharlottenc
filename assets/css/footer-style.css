@@ -147,6 +147,16 @@ footer {
     width: 270px;
 }
 
+.policies-link {
+    display: flex;
+    gap: 15px;
+}
+
+.policies-link a {
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .footer_box {
         flex: 0 0 100%;
@@ -156,5 +166,15 @@ footer {
 @media only screen and (max-width: 500px) {
     footer {
         padding: 50px 0px 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .copyright-footer-socials {
+        flex-direction: column;
+    }
+
+    .footer-copyright-center {
+        text-align: start;
     }
 }

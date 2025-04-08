@@ -15,7 +15,14 @@ $(document).ready(function () {
         adjustMainContentPadding();
         document.querySelectorAll('.setImagePath').forEach(img => {
             const filename = img.getAttribute('data-filename');
-            img.src = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
+            const origin = window.location.origin;
+            // console.log(origin)
+            if(origin === 'https://alikhokhar123.github.io/') {
+                img.src = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
+            }
+            else{
+                img.src = `${window.location.origin}/assets/images/${filename}`;
+            }
         });
     }, 500);
 });
