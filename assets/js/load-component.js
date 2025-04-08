@@ -32,7 +32,7 @@ $(document).ready(function () {
             const origin = window.location.origin;
             console.log(origin)
             if(origin === 'https://alikhokhar123.github.io') {
-                link.href = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
+                link.href = `${window.location.origin}/lawnmowingservicecharlottenc/${filename}`;
             }
             else{
                 console.log("it works")
