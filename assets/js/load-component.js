@@ -12,7 +12,9 @@ function adjustMainContentPadding() {
 $(document).ready(function () {
     $("#nav-placeholder").load("./assets/components/header.html");
     setTimeout(() => {
+
         adjustMainContentPadding();
+
         document.querySelectorAll('.setImagePath').forEach(img => {
             const filename = img.getAttribute('data-filename');
             const origin = window.location.origin;
@@ -24,6 +26,20 @@ $(document).ready(function () {
                 img.src = `${window.location.origin}/assets/images/${filename}`;
             }
         });
+
+        document.querySelectorAll('.setNavLinkPath').forEach(link => {
+            const filename = link.getAttribute('data-filename');
+            const origin = window.location.origin;
+            console.log(origin)
+            if(origin === 'https://alikhokhar123.github.io/') {
+                link.href = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
+            }
+            else{
+                console.log("it works")
+                link.href = `${window.location.origin}/${filename}`;
+            }
+        });
+
     }, 500);
 });
 
