@@ -19,7 +19,7 @@ $(document).ready(function () {
             const filename = img.getAttribute('data-filename');
             const origin = window.location.origin;
             // console.log(origin)
-            if(origin === 'https://alikhokhar123.github.io/') {
+            if(origin === 'https://alikhokhar123.github.io') {
                 img.src = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
             }
             else{
@@ -31,7 +31,7 @@ $(document).ready(function () {
             const filename = link.getAttribute('data-filename');
             const origin = window.location.origin;
             console.log(origin)
-            if(origin === 'https://alikhokhar123.github.io/') {
+            if(origin === 'https://alikhokhar123.github.io') {
                 link.href = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
             }
             else{
