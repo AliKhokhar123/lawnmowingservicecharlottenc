@@ -15,7 +15,7 @@ $(document).ready(function () {
         adjustMainContentPadding();
         document.querySelectorAll('.setImagePath').forEach(img => {
             const filename = img.getAttribute('data-filename');
-            img.src = `${window.location.origin}/assets/images/${filename}`;
+            img.src = `${window.location.origin}/lawnmowingservicecharlottenc/assets/images/${filename}`;
         });
     }, 500);
 });
