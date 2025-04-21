@@ -1,5 +1,59 @@
-#general-landscaping {
-    background-image: url(../images/land-scaping-charlotte-bg.jpg) !important;
+#cotswold {
+    background-image: url(../images/bg/cotsword-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eastover {
+    background-image: url(../images/bg/eastover-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#university-city {
+    background-image: url(../images/bg/university-city-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#steele-creek {
+    background-image: url(../images/bg/steele-creek-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ballantyne {
+    background-image: url(../images/bg/ballantyne-nc.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#southpark {
+    background-image: url(../images/bg/South-park-nc.jpeg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myers-park {
+    background-image: url(../images/bg/myers-park-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#piper-glen {
+    background-image: url(../images/bg/piper-glen-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#yorkmount {
+    background-image: url(../images/bg/york-mount-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foxcroft {
+    background-image: url(../images/bg/foxcroft-bg.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
 }
